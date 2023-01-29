@@ -17,8 +17,17 @@ class Scale {
     return MediaQuery.of(context).size.width;
   }
   // --------------------
-  /// TESTED : WORKS PERFECT
+  /// TASK : TEST ME
   static double screenHeight(BuildContext context) {
+
+    return    MediaQuery.of(context).size.height
+            - MediaQuery.of(context).padding.top
+            - MediaQuery.of(context).padding.bottom;
+
+  }
+  // --------------------
+  /// TESTED : WORKS PERFECT
+  static double screenHeightGross(BuildContext context) {
     return MediaQuery.of(context).size.height;
   }
   // --------------------
