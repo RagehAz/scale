@@ -34,27 +34,27 @@ void main() {
   // });
 
   test('screenWidth returns the correct width of the screen', () {
-    double width = Scale.screenWidth(_context);
+    final double width = Scale.screenWidth(_context);
     expect(width, greaterThan(0));
   });
 
   test('screenHeight returns the correct height of the screen', () {
-    double height = Scale.screenHeight(_context);
+    final double height = Scale.screenHeight(_context);
     expect(height, greaterThan(0));
   });
 
   test('superScreenHeightWithoutSafeArea returns the correct height of the screen without the safe area top padding', () {
-    double height = Scale.superScreenHeightWithoutSafeArea(_context);
+    final double height = Scale.superScreenHeightWithoutSafeArea(_context);
     expect(height, greaterThan(0));
   });
 
   test('superSafeAreaTopPadding returns the correct top padding of the safe area', () {
-    double padding = Scale.superSafeAreaTopPadding(_context);
+    final double padding = Scale.superSafeAreaTopPadding(_context);
     expect(padding, greaterThanOrEqualTo(0));
   });
 
   test('superInsets returns the correct EdgeInsets with the specified left, right, top, and bottom values', () {
-    EdgeInsets insets = Scale.superInsets(
+    final EdgeInsets insets = Scale.superInsets(
       context: _context,
       appIsLeftToRight: true,
       enLeft: 10,
@@ -110,7 +110,7 @@ void main() {
   });
 
   test('getUniformRowItemWidth returns the correct width for items in a row with the specified number of items and box width', () {
-    double width = Scale.getUniformRowItemWidth(
+    final double width = Scale.getUniformRowItemWidth(
       context: _context,
       numberOfItems: 3,
       boxWidth: 100,

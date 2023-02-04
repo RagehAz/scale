@@ -17,7 +17,7 @@ class Scale {
     return MediaQuery.of(context).size.width;
   }
   // --------------------
-  /// TASK : TEST ME
+  /// TESTED : WORKS PERFECT
   static double screenHeight(BuildContext context) {
 
     return    MediaQuery.of(context).size.height
@@ -34,6 +34,21 @@ class Scale {
   /// TESTED : WORKS PERFECT
   static double superScreenHeightWithoutSafeArea(BuildContext context) {
     return screenHeight(context) - superSafeAreaTopPadding(context);
+  }
+  // --------------------
+  /// TESTED : WORKS PERFECT
+  static double screenShortestSide(BuildContext context){
+
+    final bool _isLandscape = MediaQuery.of(context).orientation == Orientation.landscape;
+
+    if (_isLandscape == true) {
+      return MediaQuery.of(context).size.height;
+    }
+
+    else {
+      return MediaQuery.of(context).size.width;
+    }
+
   }
   // -----------------------------------------------------------------------------
 

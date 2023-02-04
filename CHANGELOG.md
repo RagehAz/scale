@@ -1,3 +1,7 @@
+## 0.0.3
+
+* Added ( screenShortestSide() )
+
 ## 0.0.2
 
 * ScreenHeight method no deducts screen vertical paddings by default
