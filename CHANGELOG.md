@@ -1,3 +1,7 @@
+## 0.0.4
+
+* Added ( Borderers() ) class
+
 ## 0.0.3
 
 * Added ( screenShortestSide() )
