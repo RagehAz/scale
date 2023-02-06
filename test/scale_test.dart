@@ -56,7 +56,7 @@ void main() {
   test('superInsets returns the correct EdgeInsets with the specified left, right, top, and bottom values', () {
     final EdgeInsets insets = Scale.superInsets(
       context: _context,
-      appIsLeftToRight: true,
+      appIsLTR: true,
       enLeft: 10,
       enRight: 20,
       top: 5,

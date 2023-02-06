@@ -62,14 +62,14 @@ class Scale {
   /// TESTED : WORKS PERFECT
   static EdgeInsets superInsets({ // clean all trances to become constants
     @required BuildContext context,
-    @required bool appIsLeftToRight,
+    @required bool appIsLTR,
     double bottom = 0,
     double enLeft = 0,
     double enRight = 0,
     double top = 0,
   }) {
 
-    if (appIsLeftToRight == true){
+    if (appIsLTR == true){
       return EdgeInsets.only(
           left: enLeft,
           right: enRight,
