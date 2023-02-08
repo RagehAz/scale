@@ -4,4 +4,5 @@ import 'package:flutter/material.dart';
 // -----------------------------------------------------------------------------
 part 'src/scale_class.dart';
 part 'src/borderers.dart';
+part 'src/aligners.dart';
 // -----------------------------------------------------------------------------
