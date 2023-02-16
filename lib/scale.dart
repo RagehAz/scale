@@ -11,4 +11,6 @@ part 'src/helpers/aligner.dart';
 /// POSITIONED
 // --------------------
 part 'src/widgets/super_positioned.dart';
+part 'src/widgets/expander.dart';
+part 'src/widgets/spacer.dart';
 // -----------------------------------------------------------------------------
