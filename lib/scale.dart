@@ -2,7 +2,13 @@ library scale;
 // -----------------------------------------------------------------------------
 import 'package:flutter/material.dart';
 // -----------------------------------------------------------------------------
-part 'src/scale_class.dart';
-part 'src/borderers.dart';
-part 'src/aligners.dart';
+/// HELPERS
+// --------------------
+part 'src/helpers/scale_class.dart';
+part 'src/helpers/borderers.dart';
+part 'src/helpers/aligner.dart';
+// --------------------
+/// POSITIONED
+// --------------------
+part 'src/widgets/super_positioned.dart';
 // -----------------------------------------------------------------------------
